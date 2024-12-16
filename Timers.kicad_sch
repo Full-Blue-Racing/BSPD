@@ -5,974 +5,6 @@
 	(uuid "382e9c81-8e68-401d-8897-bc93b78200ae")
 	(paper "A4")
 	(lib_symbols
-		(symbol "4xxx:4011"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "4011"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms-23bms.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Quad Nand 2 inputs"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "CMOS Nand2"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "DIP?14*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "4011_1_1"
-				(arc
-					(start 0 -3.81)
-					(mid 3.7934 0)
-					(end 0 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output inverted
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "4011_1_2"
-				(arc
-					(start -3.81 -3.81)
-					(mid -2.589 0)
-					(end -3.81 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.6096 -3.81)
-					(mid 2.1842 -2.5851)
-					(end 3.81 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -3.81) (xy -0.635 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 3.81) (xy -0.635 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 3.81) (xy -3.81 3.81) (xy -3.81 3.81) (xy -3.556 3.4036) (xy -3.0226 2.2606) (xy -2.6924 1.0414)
-						(xy -2.6162 -0.254) (xy -2.7686 -1.4986) (xy -3.175 -2.7178) (xy -3.81 -3.81) (xy -3.81 -3.81)
-						(xy -0.635 -3.81)
-					)
-					(stroke
-						(width -25.4)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start 3.81 0)
-					(mid 2.1915 2.5936)
-					(end -0.6096 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input inverted
-					(at -7.62 2.54 0)
-					(length 4.318)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input inverted
-					(at -7.62 -2.54 0)
-					(length 4.318)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "4011_2_1"
-				(arc
-					(start 0 -3.81)
-					(mid 3.7934 0)
-					(end 0 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin output inverted
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "4011_2_2"
-				(arc
-					(start -3.81 -3.81)
-					(mid -2.589 0)
-					(end -3.81 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.6096 -3.81)
-					(mid 2.1842 -2.5851)
-					(end 3.81 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -3.81) (xy -0.635 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 3.81) (xy -0.635 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 3.81) (xy -3.81 3.81) (xy -3.81 3.81) (xy -3.556 3.4036) (xy -3.0226 2.2606) (xy -2.6924 1.0414)
-						(xy -2.6162 -0.254) (xy -2.7686 -1.4986) (xy -3.175 -2.7178) (xy -3.81 -3.81) (xy -3.81 -3.81)
-						(xy -0.635 -3.81)
-					)
-					(stroke
-						(width -25.4)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start 3.81 0)
-					(mid 2.1915 2.5936)
-					(end -0.6096 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input inverted
-					(at -7.62 2.54 0)
-					(length 4.318)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input inverted
-					(at -7.62 -2.54 0)
-					(length 4.318)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "4011_3_1"
-				(arc
-					(start 0 -3.81)
-					(mid 3.7934 0)
-					(end 0 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin output inverted
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "4011_3_2"
-				(arc
-					(start -3.81 -3.81)
-					(mid -2.589 0)
-					(end -3.81 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.6096 -3.81)
-					(mid 2.1842 -2.5851)
-					(end 3.81 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -3.81) (xy -0.635 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 3.81) (xy -0.635 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 3.81) (xy -3.81 3.81) (xy -3.81 3.81) (xy -3.556 3.4036) (xy -3.0226 2.2606) (xy -2.6924 1.0414)
-						(xy -2.6162 -0.254) (xy -2.7686 -1.4986) (xy -3.175 -2.7178) (xy -3.81 -3.81) (xy -3.81 -3.81)
-						(xy -0.635 -3.81)
-					)
-					(stroke
-						(width -25.4)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start 3.81 0)
-					(mid 2.1915 2.5936)
-					(end -0.6096 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input inverted
-					(at -7.62 2.54 0)
-					(length 4.318)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input inverted
-					(at -7.62 -2.54 0)
-					(length 4.318)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "4011_4_1"
-				(arc
-					(start 0 -3.81)
-					(mid 3.7934 0)
-					(end 0 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin output inverted
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "4011_4_2"
-				(arc
-					(start -3.81 -3.81)
-					(mid -2.589 0)
-					(end -3.81 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.6096 -3.81)
-					(mid 2.1842 -2.5851)
-					(end 3.81 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -3.81) (xy -0.635 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 3.81) (xy -0.635 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 3.81) (xy -3.81 3.81) (xy -3.81 3.81) (xy -3.556 3.4036) (xy -3.0226 2.2606) (xy -2.6924 1.0414)
-						(xy -2.6162 -0.254) (xy -2.7686 -1.4986) (xy -3.175 -2.7178) (xy -3.81 -3.81) (xy -3.81 -3.81)
-						(xy -0.635 -3.81)
-					)
-					(stroke
-						(width -25.4)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start 3.81 0)
-					(mid 2.1915 2.5936)
-					(end -0.6096 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input inverted
-					(at -7.62 2.54 0)
-					(length 4.318)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input inverted
-					(at -7.62 -2.54 0)
-					(length 4.318)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "4011_5_0"
-				(pin power_in line
-					(at 0 12.7 270)
-					(length 5.08)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -12.7 90)
-					(length 5.08)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "4011_5_1"
-				(rectangle
-					(start -5.08 7.62)
-					(end 5.08 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-		)
 		(symbol "4xxx:4040"
 			(pin_names
 				(offset 1.016)
@@ -1353,6 +385,108 @@
 				)
 			)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers hide)
@@ -1571,16 +705,22 @@
 		)
 	)
 	(junction
+		(at 53.34 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09b638c8-3521-42bf-bef9-a1ddb805fee2")
+	)
+	(junction
 		(at 38.1 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "27a8974f-5701-4a50-816b-c043e6a52a0e")
 	)
 	(junction
-		(at 161.29 124.46)
+		(at 53.34 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "98e3dfa1-dbe7-4abc-8683-b5bd664d0c73")
+		(uuid "57a7b76e-4d18-4fb1-ac73-04f2ded0d9b8")
 	)
 	(no_connect
 		(at 144.78 104.14)
@@ -1605,6 +745,10 @@
 	(no_connect
 		(at 144.78 99.06)
 		(uuid "2461a676-6c18-492c-a9ea-86bab546cd75")
+	)
+	(no_connect
+		(at 144.78 124.46)
+		(uuid "250d5c87-474c-431b-ab5e-73f45fbc9c0c")
 	)
 	(no_connect
 		(at 144.78 50.8)
@@ -1635,10 +779,6 @@
 		(uuid "58c74ad7-44c4-47eb-953d-490b06e25a89")
 	)
 	(no_connect
-		(at 144.78 119.38)
-		(uuid "6069d7c1-5605-44c4-9e94-4101ac0c3a2b")
-	)
-	(no_connect
 		(at 50.8 40.64)
 		(uuid "62beaa5c-bb04-4167-93a4-ed4cea5d2b8f")
 	)
@@ -1649,6 +789,14 @@
 	(no_connect
 		(at 144.78 45.72)
 		(uuid "6464dfa9-8b05-4331-ae06-0c2657b69825")
+	)
+	(no_connect
+		(at 50.8 45.72)
+		(uuid "70924129-3efe-4e4f-9f07-df6ec7cc9dd2")
+	)
+	(no_connect
+		(at 144.78 121.92)
+		(uuid "70bd74f5-ef44-4515-af6c-346dafb5aa60")
 	)
 	(no_connect
 		(at 144.78 114.3)
@@ -1671,6 +819,10 @@
 		(uuid "864f326f-6709-4c4f-983d-1e91a999fb7b")
 	)
 	(no_connect
+		(at 144.78 119.38)
+		(uuid "9b1f042a-7f9e-488f-8477-fd272300bdf4")
+	)
+	(no_connect
 		(at 50.8 43.18)
 		(uuid "a62c6f64-77f9-472d-a938-fda34c07bfec")
 	)
@@ -1691,30 +843,12 @@
 		(uuid "e8d9bdfb-a9e3-4951-a92b-4ad5eef6b384")
 	)
 	(no_connect
-		(at 50.8 48.26)
-		(uuid "e9f9a0b2-e12a-442f-a769-f673b9d91b82")
-	)
-	(no_connect
-		(at 144.78 124.46)
-		(uuid "ece5a592-2851-432c-8ed4-70545c3e309a")
-	)
-	(no_connect
 		(at 50.8 30.48)
 		(uuid "f045ed7b-086c-4697-868b-f9c84cf11dd5")
 	)
 	(no_connect
 		(at 144.78 48.26)
 		(uuid "fb951371-4d13-4a97-a977-0e71e2614207")
-	)
-	(wire
-		(pts
-			(xy 146.05 127) (xy 144.78 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0117deaa-2eec-4936-8963-5fb957ffbb56")
 	)
 	(wire
 		(pts
@@ -1728,43 +862,33 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 124.46) (xy 161.29 127)
+			(xy 53.34 35.56) (xy 50.8 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "263ef00e-1561-4c2e-8077-625487a88ff1")
+		(uuid "223a5913-f8fa-47d9-9784-0859f28fba3e")
 	)
 	(wire
 		(pts
-			(xy 161.29 121.92) (xy 161.29 124.46)
+			(xy 53.34 48.26) (xy 50.8 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "53f04b0e-2ca4-4564-b6c9-7371922d061d")
+		(uuid "5d5c5d9c-b3ba-4743-b809-1ca19bf36f5c")
 	)
 	(wire
 		(pts
-			(xy 162.56 121.92) (xy 161.29 121.92)
+			(xy 57.15 35.56) (xy 53.34 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "70d3cbf5-efa2-48dd-836f-44da534e3697")
-	)
-	(wire
-		(pts
-			(xy 146.05 121.92) (xy 144.78 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0dacca1-f7e0-4b1f-86f1-fe8b027704ac")
+		(uuid "7ce22394-3e94-4ab7-94c8-813a1bbc20c5")
 	)
 	(wire
 		(pts
@@ -1778,13 +902,13 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 127) (xy 162.56 127)
+			(xy 57.15 48.26) (xy 53.34 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f30f7118-0d9b-4f74-ac51-27452d08be44")
+		(uuid "ce30910e-3259-4a50-a094-3dc6d089c025")
 	)
 	(label "4096CLK"
 		(at 119.38 35.56 180)
@@ -1797,30 +921,8 @@
 		)
 		(uuid "3e3e85bd-16ee-41f3-814d-2c3ece97d7a9")
 	)
-	(label "256CLK"
-		(at 119.38 99.06 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5e33283c-5a7e-4acb-9056-2d1cc1e96934")
-	)
-	(label "256CLK"
-		(at 50.8 45.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b66aa37c-e411-4447-9d7c-12c5f3c2a239")
-	)
 	(label "4096CLK"
-		(at 50.8 35.56 0)
+		(at 57.15 35.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1830,17 +932,27 @@
 		)
 		(uuid "d4a051a2-2d27-49ba-80a1-098dab4ae87b")
 	)
-	(hierarchical_label "10s_Timer"
-		(shape output)
-		(at 177.8 124.46 0)
+	(label "128CLK"
+		(at 119.38 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right bottom)
 		)
-		(uuid "0a10b717-6b99-4c5b-9be1-895d99ac1a03")
+		(uuid "e145db0d-0d41-4e68-90fc-cc8d73ce3d40")
+	)
+	(label "128CLK"
+		(at 57.15 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fd66e6c0-351b-4d62-b523-999777bfa7fe")
 	)
 	(hierarchical_label "Reset_Counting"
 		(shape input)
@@ -1865,6 +977,18 @@
 			(justify right)
 		)
 		(uuid "24309d01-62b6-4862-b9c8-5a4d0916182d")
+	)
+	(hierarchical_label "16s_Timer"
+		(shape input)
+		(at 144.78 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "59718c7b-3713-49ae-b147-cc4b6ab63071")
 	)
 	(hierarchical_label "CLK"
 		(shape input)
@@ -1952,110 +1076,6 @@
 				(path "/1f7c501a-057f-4634-92ce-528b01503799/c1af1d02-f1c8-42b8-8d3c-ac3883e05aae/826ea561-bd97-47c9-84f4-03823390cccb"
 					(reference "#PWR028")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "4xxx:4011")
-		(at 153.67 124.46 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1f66174d-b3a3-4a5e-973b-0bfa29eefc24")
-		(property "Reference" "U6"
-			(at 153.6617 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4011"
-			(at 153.6617 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
-			(at 153.67 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms-23bms.pdf"
-			(at 153.67 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad Nand 2 inputs"
-			(at 153.67 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8e66e1e1-bf21-44de-8390-60a83d36bc31")
-		)
-		(pin "2"
-			(uuid "5337955b-1be6-47bf-8196-54aa002911f0")
-		)
-		(pin "3"
-			(uuid "2e9d8488-c0ea-4a5b-8b6e-29bd7ecebd5e")
-		)
-		(pin "4"
-			(uuid "b17ab761-e474-47cb-a602-dbfa008ff0f2")
-		)
-		(pin "5"
-			(uuid "7549bf24-25fa-4ba5-8c86-7ab05032b19a")
-		)
-		(pin "6"
-			(uuid "5c78f922-c8d5-48bd-a567-22c89d83d346")
-		)
-		(pin "10"
-			(uuid "c6ce7487-0cb4-48c7-96b6-056918e2944c")
-		)
-		(pin "8"
-			(uuid "51ed7923-df58-4d34-bad8-bf33d893a45c")
-		)
-		(pin "9"
-			(uuid "36e191ee-b410-4baf-bd0d-86366fc3d90e")
-		)
-		(pin "11"
-			(uuid "afbc458e-9734-4934-a45b-cbef8a963417")
-		)
-		(pin "12"
-			(uuid "7a44b0b1-8972-4aef-8e41-a5ef45f88a2f")
-		)
-		(pin "13"
-			(uuid "9cded0b0-708a-4a65-bcd8-5c1dbb697669")
-		)
-		(pin "14"
-			(uuid "4181a018-543d-4d62-b8bc-6a3394d532ce")
-		)
-		(pin "7"
-			(uuid "2e1730c1-6861-47d6-aae0-a921c4a7206d")
-		)
-		(instances
-			(project "New BSPD"
-				(path "/1f7c501a-057f-4634-92ce-528b01503799/c1af1d02-f1c8-42b8-8d3c-ac3883e05aae/826ea561-bd97-47c9-84f4-03823390cccb"
-					(reference "U6")
-					(unit 3)
 				)
 			)
 		)
@@ -2233,6 +1253,73 @@
 			(project "New BSPD"
 				(path "/1f7c501a-057f-4634-92ce-528b01503799/c1af1d02-f1c8-42b8-8d3c-ac3883e05aae/826ea561-bd97-47c9-84f4-03823390cccb"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 53.34 48.26 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5170aec9-fa23-4fac-a40e-474fcbceee34")
+		(property "Reference" "TP7"
+			(at 55.88 50.2919 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 55.88 52.8319 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 48.26 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 53.34 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "946b07ac-c5ac-4c1f-b6f4-c17a82f1c03e")
+		)
+		(instances
+			(project "BSPD"
+				(path "/1f7c501a-057f-4634-92ce-528b01503799/c1af1d02-f1c8-42b8-8d3c-ac3883e05aae/826ea561-bd97-47c9-84f4-03823390cccb"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -2528,42 +1615,35 @@
 		)
 	)
 	(symbol
-		(lib_id "4xxx:4011")
-		(at 170.18 124.46 0)
-		(unit 4)
+		(lib_id "Connector:TestPoint")
+		(at 53.34 35.56 180)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "aa87339e-8698-4cad-9d2b-7ef7df030634")
-		(property "Reference" "U6"
-			(at 170.1717 115.57 0)
+		(uuid "ad12c0af-5d9a-4edb-8824-79d148d61c6f")
+		(property "Reference" "TP6"
+			(at 55.88 37.5919 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "4011"
-			(at 170.1717 118.11 0)
+		(property "Value" "TestPoint"
+			(at 55.88 40.1319 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
-			(at 170.18 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms-23bms.pdf"
-			(at 170.18 124.46 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 48.26 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2571,8 +1651,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad Nand 2 inputs"
-			(at 170.18 124.46 0)
+		(property "Datasheet" "~"
+			(at 48.26 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 53.34 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2581,52 +1670,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "ea4ecb43-d352-4658-ad04-386b30939461")
-		)
-		(pin "2"
-			(uuid "edc7320c-e2b1-47e5-b492-1c5c83068136")
-		)
-		(pin "3"
-			(uuid "9fbc56d5-6777-4559-acd7-479fec9b7ef4")
-		)
-		(pin "4"
-			(uuid "56558f4e-40e9-4bfc-83ad-3bf086168c1d")
-		)
-		(pin "5"
-			(uuid "eb995592-576c-403c-b71e-cea0dc384b10")
-		)
-		(pin "6"
-			(uuid "e0d7b101-1f4c-4579-a7bc-9722943e1743")
-		)
-		(pin "10"
-			(uuid "145ed910-0c36-4586-b80b-b078097bf13c")
-		)
-		(pin "8"
-			(uuid "f92f1405-60a3-4a57-bfe7-620757a5d8a0")
-		)
-		(pin "9"
-			(uuid "88cf6dd5-5637-4702-ba1c-e2b78c381690")
-		)
-		(pin "11"
-			(uuid "29eb86b9-1791-4411-8b47-20ca53b37268")
-		)
-		(pin "12"
-			(uuid "ea5a5325-c50d-43a1-9c3f-b2f249a70c8b")
-		)
-		(pin "13"
-			(uuid "bed784a4-9e81-4f8b-abee-3f6fbbbbe459")
-		)
-		(pin "14"
-			(uuid "89f40f5f-cc70-4fcb-801b-bed34407a6a0")
-		)
-		(pin "7"
-			(uuid "caa8dddd-5ac1-4fc7-8e79-6a8e68302ac6")
+			(uuid "b78a06d3-fafe-4d1d-9177-4757cd6c219e")
 		)
 		(instances
-			(project "New BSPD"
+			(project ""
 				(path "/1f7c501a-057f-4634-92ce-528b01503799/c1af1d02-f1c8-42b8-8d3c-ac3883e05aae/826ea561-bd97-47c9-84f4-03823390cccb"
-					(reference "U6")
-					(unit 4)
+					(reference "TP6")
+					(unit 1)
 				)
 			)
 		)
