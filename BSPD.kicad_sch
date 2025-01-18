@@ -3632,6 +3632,18 @@
 		)
 	)
 	(junction
+		(at 248.92 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27f12c13-a4a1-462f-b1fc-26cdea93be91")
+	)
+	(junction
+		(at 254 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c4e8acf-d023-4314-af07-de0204d0cc30")
+	)
+	(junction
 		(at 99.06 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3666,6 +3678,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8f2f82a3-a417-4def-b08f-1d9a96622d6b")
+	)
+	(junction
+		(at 243.84 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a181b03a-86d4-4b00-b4c2-3c570c97a0b9")
 	)
 	(junction
 		(at 152.4 156.21)
@@ -3799,6 +3817,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 63.5) (xy 259.08 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20ac97ad-33c7-4b99-8ae2-2a7a10adcf2e")
+	)
+	(wire
+		(pts
 			(xy 139.7 44.45) (xy 156.21 44.45)
 		)
 		(stroke
@@ -3919,6 +3947,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 60.96) (xy 259.08 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43c7182d-56a8-479a-b0d7-52dba5c0df2a")
+	)
+	(wire
+		(pts
 			(xy 162.56 156.21) (xy 162.56 154.94)
 		)
 		(stroke
@@ -3939,7 +3977,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 60.96) (xy 241.3 60.96)
+			(xy 231.14 60.96) (xy 243.84 60.96)
 		)
 		(stroke
 			(width 0)
@@ -4149,6 +4187,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 55.88) (xy 254 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9012e194-2396-4355-bcba-6c0be5e33fae")
+	)
+	(wire
+		(pts
 			(xy 82.55 25.4) (xy 82.55 26.67)
 		)
 		(stroke
@@ -4209,6 +4257,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 55.88) (xy 243.84 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e7d2240-8b8e-45b8-ab9d-b59291a8a10a")
+	)
+	(wire
+		(pts
 			(xy 73.66 149.86) (xy 90.17 149.86)
 		)
 		(stroke
@@ -4256,6 +4314,16 @@
 			(type default)
 		)
 		(uuid "ac731e26-cd29-4016-a172-82fa6b58fc10")
+	)
+	(wire
+		(pts
+			(xy 248.92 59.69) (xy 248.92 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3322b58-986b-4d9e-bf10-8de492b070c7")
 	)
 	(wire
 		(pts
@@ -4309,6 +4377,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 66.04) (xy 240.03 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9e524b2-9375-45f7-8e24-05d2ea5fe0d0")
+	)
+	(wire
+		(pts
 			(xy 154.94 156.21) (xy 157.48 156.21)
 		)
 		(stroke
@@ -4339,7 +4417,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 66.04) (xy 240.03 66.04)
+			(xy 259.08 66.04) (xy 254 66.04)
 		)
 		(stroke
 			(width 0)
@@ -4419,7 +4497,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 63.5) (xy 241.3 63.5)
+			(xy 226.06 63.5) (xy 248.92 63.5)
 		)
 		(stroke
 			(width 0)
@@ -4570,7 +4648,7 @@
 	)
 	(text "Shutdown circuit terminals\nConnect between C and NO\nDue to abiguous datasheet, NO and NC are swapped,\nthe previous statement has accounted for that\nCould swap the connector to the two pin version"
 		(exclude_from_sim no)
-		(at 228.6 54.61 0)
+		(at 228.6 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4826,7 +4904,7 @@
 	)
 	(hierarchical_label "ShutdownNO"
 		(shape output)
-		(at 241.3 60.96 0)
+		(at 259.08 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4886,7 +4964,7 @@
 	)
 	(hierarchical_label "ShutdownNC"
 		(shape output)
-		(at 241.3 63.5 0)
+		(at 259.08 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4898,7 +4976,7 @@
 	)
 	(hierarchical_label "ShutdownC"
 		(shape output)
-		(at 241.3 66.04 0)
+		(at 259.08 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6585,6 +6663,77 @@
 			(project "BSPD - FSG"
 				(path "/ea40ab7b-80c4-4cf6-acf9-83a05b0cd5a6"
 					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at 248.92 55.88 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "767d39ed-f8c0-4801-b590-80a9988a91fb")
+		(property "Reference" "JP5"
+			(at 248.92 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_3_Open"
+			(at 248.92 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 248.92 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 248.92 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 248.92 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44a53071-0952-4c67-97f5-69009a82df3b")
+		)
+		(pin "2"
+			(uuid "c9d8c9a3-5d6a-4b24-bc30-139b3f91f262")
+		)
+		(pin "3"
+			(uuid "185df60e-e285-43d7-951a-3781455d6970")
+		)
+		(instances
+			(project ""
+				(path "/1f7c501a-057f-4634-92ce-528b01503799"
+					(reference "JP5")
 					(unit 1)
 				)
 			)
